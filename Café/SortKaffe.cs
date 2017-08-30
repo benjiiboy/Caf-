@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Café
 {
-    public class Class1
+    public class SortKaffe : Cafe
     {
+        public override int Pris()
+        {
+            return 20;
+        }
     }
 }
